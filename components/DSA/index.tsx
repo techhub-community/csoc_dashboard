@@ -1,19 +1,9 @@
-import React from "react";
-import { Problem } from "./tabs/Problem/Problem";
-import { Badges } from "./tabs/Badges/Badges";
-import { Submission } from "./tabs/Submission/Submission";
+import React from 'react'
 
-const DSA: React.FC<{}> = () => {
+const DSA = () => {
   return (
-    <>
-       <h1 className="text-black">Data Structure and Algorithms</h1>
-     <div className="flex flex-row">
-     <Problem/>
-     <Badges/>
-     </div>
-     <Submission/>
-    </>
-  );
-};
+    <div className='text-black'>index_dsa</div>
+  )
+}
 
-export default DSA;
+export default DSA
