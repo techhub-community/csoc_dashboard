@@ -1,0 +1,3 @@
+interface dashboardSliceType{
+    activeTab:string;
+}
