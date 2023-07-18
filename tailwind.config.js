@@ -17,6 +17,9 @@ module.exports = {
         reddish:"#FB3800",
         greyy:"#F4EEE9",
         orange2:"#FE995C",
+        whitish:"#FEF9F4",
+        lightblack:"#4E4039",
+        grey:"#4B5563",
 
       },
       backgroundImage: {

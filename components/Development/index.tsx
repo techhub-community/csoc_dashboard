@@ -1,30 +1,20 @@
 import React from 'react';
 import Badges from './badges';
-import ProgressTask from './progessTask'; 
+import ProgressTask from './progessTask';
 import Task from './task';
 
 function Development() {
   return (
-    <div style={{marginLeft:'300px'}}>
-    <div className="flex flex-col h-screen">
-      {/* Two boxes at the top */}
-      
-      <div className="flex space-x-4">
+      <div className="md:ml-[20.5%]">
+    <div className="flex flex-col h-screen ">
+      <div className="flex flex-col md:flex-row md:items-center md:gap-4">
         <ProgressTask />
         <Badges />
       </div>
-
-      {/* Box at the bottom */}
-      <div className="mt-auto">
-        <Task />
-      </div>
-    </div>
+       <Task />
+     </div>
     </div>
   );
 }
 
 export default Development;
-
-
-
-
