@@ -7,11 +7,11 @@ export const Problem = () => {
 
   return (
     <>
-      <div className="text-lightblack mt-28 h-max md:h-80 w-6/6 md:w-4/6 p-3 bg-whitish my-4  rounded-lg">
+      <div className="text-lightblack mt-28 h-max md:h-80 w-full md:w-2/3 p-3 bg-whitish my-4  rounded-lg">
         <h1 className="text-4xl font-bold mb-4 ml-4 md:ml-0">
           Solved Problems <span className="text-whitish">ext</span>
         </h1>
-        <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-16">
+        <div className="flex flex-col md:flex-row items-center gap-x-0 md:gap-x-16">
           <div className="w-48 h-48 mr-8">
             <div className="relative h-full">
               <CircularProgressbar
