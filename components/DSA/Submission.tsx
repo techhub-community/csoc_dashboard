@@ -12,9 +12,9 @@ export const Submission = () => {
         <div className="text-3xl mt-6 overflow-y-auto w-full h-64 sm:Overflow-x-auto">
           <div className="flex flex-col gap-y-2 ">
             {submissions.map((submissions, index) => (
-              <ul className="flex flex-row gap-x-2 w-full">
+              <ul className="flex flex-row gap-x-2 w-full " key={index}>
                 <FaDotCircle className="text-2xl text-orange-500  mt-4 "/>
-              <li key={index} className={commonStyle}>
+              <li  className={commonStyle}>
                 {submissions}
               </li>
               </ul>
