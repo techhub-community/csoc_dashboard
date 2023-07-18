@@ -17,6 +17,7 @@ module.exports = {
         reddish:"#FB3800",
         greyy:"#F4EEE9",
         orange2:"#FE995C",
+        nav_color:"#fef9f4",
 
       },
       backgroundImage: {
