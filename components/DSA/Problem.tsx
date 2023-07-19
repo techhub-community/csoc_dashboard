@@ -2,8 +2,9 @@ import React from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { linebar } from "@/constant/DSA/problem_stats";
+const percentage = 10; //percentage
 export const Problem = () => {
-  const percentage = 70; //percentage
+ 
 
   return (
     <>

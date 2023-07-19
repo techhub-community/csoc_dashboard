@@ -1,6 +1,6 @@
 import React from "react";
 import { BsHexagon } from "react-icons/bs";
-const badges = 7;
+const badges = 6;
 export const Badges = () => {
   
   return (
@@ -11,7 +11,7 @@ export const Badges = () => {
           Badges <span className="text-whitish">ex</span>
         </h1>
         <div className="flex flex-row justify-between items-center gap-x-20 mt-8">
-          <h1 className="text-9xl ml-8 md:ml-0">{badges}</h1>
+          <h1 className="text-9xl ml-8 md:ml-0 ">{badges}</h1>
           <BsHexagon className="h-40 w-40 text-badge" />
         </div>
       </div>
