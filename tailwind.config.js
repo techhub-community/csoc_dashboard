@@ -21,7 +21,7 @@ module.exports = {
         lightblack:"#4E4039",
         orange2:"#FE995C",
 
-
+        
         whitish:"#fef9f4",
         badge: "#FE995C",
 
