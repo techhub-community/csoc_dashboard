@@ -21,7 +21,7 @@ module.exports = {
         lightblack:"#4E4039",
         orange2:"#FE995C",
 
-        
+        nav_color:"#fef9f4",
         whitish:"#fef9f4",
         badge: "#FE995C",
 
