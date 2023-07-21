@@ -1,6 +1,6 @@
 import React from "react";
 import { devSourceItem } from "@/constant/Resources/Dev_resources";
-
+import Link from 'next/link';
 export default function Dev() {
   const commonStyle = "box-border p-3 bg-cream rounded-lg ml-2";
   return (
@@ -13,9 +13,9 @@ export default function Dev() {
           <div className="flex flex-col space-y-2">
             {devSourceItem?.map((devSourceItem, index) => (
               <span key={index} className={commonStyle}>
-                <a href={devSourceItem.link} key={index}>
+                <Link href={devSourceItem.link} key={index}>
                   {devSourceItem.name}
-                </a>
+                </Link>
               </span>
             ))}
           </div>

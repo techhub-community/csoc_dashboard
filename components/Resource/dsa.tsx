@@ -1,5 +1,6 @@
 import React from 'react'
 import {dsaSourceItem} from "@/constant/Resources/Dsa_resources";
+import Link from 'next/link';
 export default function Dsa() {
   const commonStyle = 'box-border p-3 bg-cream rounded-lg ml-2';
   return (
@@ -10,9 +11,9 @@ export default function Dsa() {
           <div className="flex flex-col space-y-2">
             {dsaSourceItem?.map((dsaSourceItem, index) => (
               <span key={index} className={commonStyle}>
-                  <a href={dsaSourceItem.link} key={index}>
+                  <Link href={dsaSourceItem.link} key={index}>
                     {dsaSourceItem.name}
-                  </a>
+                  </Link>
               </span>
             ))}
           </div>
