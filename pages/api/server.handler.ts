@@ -77,9 +77,6 @@ export default function server_handler({
     if (authRequired) {
       cookies = parse(req.headers.cookie || "");
       console.log("cookies ================ ",cookies);
-
-      console.log("req.head.cook",req.cookies);
-      console.log("access_token",cookies.access_token)
       useLoggedIn = cookies.access_token;
 
       if (!useLoggedIn) {
